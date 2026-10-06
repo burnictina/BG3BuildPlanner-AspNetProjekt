@@ -17,7 +17,7 @@ builder.Host.UseSerilog((context, services, configuration) => configuration
     .ReadFrom.Services(services)
     .Enrich.FromLogContext());
 
-// Add services to the container.
+// Add services to the  container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
